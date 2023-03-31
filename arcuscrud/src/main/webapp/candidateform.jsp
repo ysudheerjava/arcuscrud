@@ -27,6 +27,7 @@
                 <div class="card">
                     <div class="card-body">
                     
+                    
                         <c:if test="${candidate != null}">
                             <form action="update" method="post">
                         </c:if>
@@ -46,6 +47,7 @@
                             </h2>
                         </caption>
 
+
                         <c:if test="${candidate != null}">
                             <input type="hidden" name="id" value="<c:out value='${candidate.id}' />" />
                         </c:if>
@@ -54,7 +56,7 @@
                             <label>Name</label> <input type="text" value="<c:out value='${candidate.name}' />" class="form-control" name="name" required="required">
                         </fieldset>
                         
-                            <fieldset class="form-group">
+                        <fieldset class="form-group">
                             <label>Gender</label> <input type="text" value="<c:out value='${candidate.gender}' />" class="form-control" name="gender">
                         </fieldset>
                         

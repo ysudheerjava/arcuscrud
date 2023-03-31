@@ -1,6 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
- pageEncoding="UTF-8"%>
-    <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+
         <html>
 
         <head>
@@ -13,7 +14,7 @@
             <header>
                 <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #1E2C76">
                   
-                <%--   <div> <img src="< c:url value='images/1.jpg'/>"></div> --%>
+               <div> <img src="< c:url value='images/1.jpg'/>"></div>
                    
                     <div class="navbar-brand">
                    
@@ -24,6 +25,7 @@
                 </nav>
             </header>
             <br>
+            
 
             <div class="row">
             
@@ -33,7 +35,7 @@
                     <hr>
                     <div class="container text-left">
 
-                        <a href="<%=request.getContextPath()%>/new" class="btn btn-success">Add
+                   <a href="<%=request.getContextPath()%>/new" class="btn btn-success">Add
      New Candidate</a>
                     </div>
                     <br>
